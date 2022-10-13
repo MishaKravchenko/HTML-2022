@@ -1,0 +1,28 @@
+*{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 270px;
+}
+h1, p{
+    background: gold;
+}
+h2{
+    background: darkslateblue;
+}
+li {
+    background: greenyellow;
+}
+a {
+    text-decoration: none;
+    color: snow;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
